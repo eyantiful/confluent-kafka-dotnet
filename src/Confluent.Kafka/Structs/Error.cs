@@ -33,7 +33,7 @@ namespace Confluent.Kafka
             => Internal.Util.Marshal.PtrToStringUTF8(Impl.LibRdKafka.err2str(Code));
 
         public bool HasError
-            => Code != ErrorCode.NO_ERROR;
+            => Code != ErrorCode.NoError;
 
         public bool IsLocalError
             => (int)Code < -1;
