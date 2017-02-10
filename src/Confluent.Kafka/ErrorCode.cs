@@ -67,7 +67,7 @@ namespace Confluent.Kafka
         /// <summary>
         ///     Reached the end of the topic+partition queue on the broker. Not really an error.
         /// </summary>
-        Local_PartitionEof = -191,
+        Local_PartitionEOF = -191,
 
         /// <summary>
         ///     Permanent: Partition does not exist in cluster.
